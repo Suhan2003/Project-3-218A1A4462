@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="Mystyle2.css">
+        <style>
+            .contain{
+                display: flex;
+                align-items: center;
+                justify-items: center;
+                justify-content: center;
+            }
+            img{
+                width: 400;
+                height: 300
+            }
+            .text{
+                font-size: 16;
+                padding: 70px;
+            }
+            .container{
+                display: flex;
+                align-items: baseline;
+               
+            }
+            .text1{
+                justify-content: left;
+                justify-items: left;
+                padding-right: 38%;
+            }
+            .text2{
+                justify-content: left;
+                justify-items: right;
+                padding-left: 38%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="./Home.html"> Home </a></li>
+                <li><a href="./About.html"> About </a></li>
+                <li><a href="./ContactUs.html"> Contact Us</a></li>
+                <li><a href="./Exp15-Registrationform.html"> Register </a></li>
+                <li><a href="./Exp11-LoginPage.html"> Login/Sign in </a></li>
+            </ul>
+        </nav><br><br>   
+        <div class="container">
+            <div class="text1">
+                <center><h2>Help Center</h2></center>
+                <h4>Domain Contact Details</h4>
+                <ul>
+                    <li>+91 9876543210</li>
+                    <li>+91 9786354201</li>
+                    <li>+91 8967452301</li>
+                </ul>
+            </div>
+            <div class="text2">
+                <center><h2>Help Center</h2></center>
+                <h4>Technical Contact Details</h4>
+                <ul>
+                    <li>+91 7842564211</li>
+                    <li>+91 7778883254</li>
+                </ul>
+            </div>
+        </div><br><br>
+        <div class="contain">
+            <div class="img">
+                <img src="contact.jpeg">
+            </div>
+            <div class="text">
+                Email : <input type="email" name="office" id="myofficeid"><br><br>
+                Mobile No : <input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="The Ten Digit Number"><br><br>
+                Description : <textarea name="address" cols="35" rows="1"></textarea><br><br>
+                <input type="submit">
+            </div>
+        </div><br><br><br><br>
+        <footer>
+            <p>&copy; 2024 My Mycompany. All Rights are Reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+/* CSS for Styling the Navigation Menu */
+nav{
+    /*background-color: whitesmoke;*/
+    text-align: right;
+    font-weight: bold;
+    color: violet;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: rgb(10, 8, 8);
+    
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section{
+    padding: 20px;
+}
+body{
+    background: url(b.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style-type: disc;
+}
+footer{
+    background: black;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding:10px 0;
+}
